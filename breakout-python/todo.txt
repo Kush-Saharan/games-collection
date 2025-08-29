@@ -1,0 +1,38 @@
+
+-Create Game base class
+--derives from tk.Frame
+--has attributes
+---add_ball
+---add_brick
+---setup_game(opens the basic window in which game hasnt started yet)
+---draw_text(puts the text on the screen)
+---start_game(defines necessary items so the game can start)
+---game_loop(will continously run and does visible changes related to change in lives)
+---check_collisions(checks and does objects related aftermath of collision)
+---update_lives(related to changes in lives)
+
+-Create GameObject base class
+--has attributes
+---get_position(retursn position of the objects)
+---move(moves objects)
+---delete(deletes objects)
+
+-Create Game objects
+--Paddle
+---set_ball(puts the ball on the paddle)
+---move(movement related)
+
+--Ball
+---update(movements related function)
+---collide(movement after collisions)
+
+--Brick
+---hit(does color related and deleting based on hits and collisions)
+
+
+More upgrades
+-Score tracking
+-sounds
+-difficulty adjustment
+-restart/pause options
+
